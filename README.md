@@ -8,11 +8,15 @@
 ## Herramientas utilizadas.
 * MUSCLE:Para alinear las secuencias genéticas.
 * IQ-TREE: Para generar árboles filogenéticos
-* ASTRAL: General árboles de especies
 * FigTree: Visualizar y editar árboles filogenéticos
+## Accede las carpetas del proyecto
+
+- [Data/](./Data): contiene el alineamiento del gen mitocondrial COI de 5 especies.
+- [Scripts/](./Scripts): contiene el script para ejecutar IQ-TREE.
+- [Results/](./Results): contiene el archivo `.treefile` generado por IQ-TREE.
 
 ## Requisitos para ejecutar el programa
-* MUSCLE,IQ-TREE,ASTRAL,FigTree
+* MUSCLE,IQ-TREE,FigTree
 ## Cómo usar el programa
 * Verifica que el archivo COI_Astyanax.fasta está en la carpeta Data/
 * cd Scripts
