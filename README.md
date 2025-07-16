@@ -6,14 +6,15 @@
 * Entender las relaciones evolutivas dentro del género Astyanax permite conocer patrones de diversificación, ayudar en la identificación y clasificación de especies, y contribuir a estudios de conservación y ecología evolutiva. El uso del gen COI es una aproximación inicial para construir filogenias accesibles y comparables.
 
 ## Herramientas utilizadas.
+* Usar esearch para obtener secuencias.
 * MUSCLE:Para alinear las secuencias genéticas.
 * IQ-TREE: Para generar árboles filogenéticos
 * FigTree: Visualizar y editar árboles filogenéticos
 ## Accede las carpetas del proyecto
 
-- [Data/](./Data): contiene el alineamiento del gen mitocondrial COI de 5 especies.
+- [Data/](./Data): contiene secuencias necesarias.
 - [Scripts/](./Scripts): contiene el script para ejecutar IQ-TREE.
-- [Results/](./Results): contiene el archivo `.treefile` generado por IQ-TREE.
+- [Results/](./Results): contiene el archivo `build_tree.sh` o el que termina en .treefile generado por IQ-TREE.
 
 ## Requisitos para ejecutar el programa
 * MUSCLE,IQ-TREE,FigTree
